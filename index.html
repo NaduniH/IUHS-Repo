@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration form</title>
+	</head>
+	
+	<body>
+		<form>
+		<h2>Student Registration Form</h2>
+		
+		<fieldset style="width:30;">
+		<legend>Personal Details</legend>
+		
+		Student Name:<br>
+		<input type="text" name="firstName" required ><br><br>
+		
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female<br><br>
+		
+		Mobile :<br>
+		<input type="tel" name="mobile" pattern="[0-9]{10}"><br><br>
+		
+		Email:<br>
+		<input type="email" name="email" pattern="[a-z0._%+-]+@[a-z0-9.]+\.[a-z]{2,}$" required><br><br>
+		
+		Address:<br>
+		<textarea name="address" rows="2" cols="50" required></textarea><br><br>
+		
+		<input type="submit" id="submitBtn" value="Submit">
+
+	
+		</fieldset>
+		
+
+		
+		</form>
+	</body>
+</html>
